@@ -114,11 +114,13 @@ can be seen in Figures 1 and 2. PSNR (Peak Signal to Noise Ratio) and
 SSIM (Structural Similarity Index Measure) are metrics to help define
 the similarity between clean and unclean images. Higher is better.
 
-![PSNR = 3.49, SSIM = 0.39 when $\sigma$ =
-50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_3.1.png?raw=true)
+![](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_3.1.png?raw=true)
+<br>
+PSNR = 3.25, SSIM = 0.3 when &sigma; = 25
 
-![PSNR = 3.49, SSIM = 0.39 when $\sigma$ =
-50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_4.1.png?raw=true)
+![](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_4.1.png?raw=true)
+<br>
+PSNR = 3.49, SSIM = 0.39 when &sigma; = 50
 
 When comparing to the paper's results, the PSNR and SSIM values are
 smaller. The original paper used images of size 180 x 180, which is much
@@ -131,11 +133,13 @@ Not every image came out with optimal values. In some instances, the
 PSNR or SSIM came out as negative values. Example images can be seen in
 Figures 3 and 4.
 
-![PSNR = 2.49, SSIM = -0.07 when $\sigma$ =
-50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_badPSNR1.png?raw=true)
+![](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_badPSNR1.png?raw=true)
+<br>
+PSNR = -1.22, SSIM = 0.15 when &sigma; = 25
 
-![PSNR = 2.49, SSIM = -0.07 when $\sigma$ =
-50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_badSSIM1.png?raw=true)
+![](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_badSSIM1.png?raw=true)
+<br>
+PSNR = 2.49, SSIM = -0.07 when &sigma; = 50
 
 Our noise also seems to be extreme in our bright whites and deep blacks.
 So, our noise function may need to be adjusted. The denoised images also
