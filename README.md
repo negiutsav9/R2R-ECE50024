@@ -25,42 +25,6 @@ sample testing function was included to observe these values for an
 individual test image. It also displayed the clean and noisy version of
 the selected individual image and was run for both noise levels.
 
-# Results of Re-Implementation
-
-For the most part, noise does appear to be much reduced by our DNN, with
-a very readable output image. Individual outputs at both noise levels
-can be seen in Figures 1 and 2. PSNR (Peak Signal to Noise Ratio) and
-SSIM (Structural Similarity Index Measure) are metrics to help define
-the similarity between clean and unclean images. Higher is better.
-
-![PSNR = 3.49, SSIM = 0.39 when $\sigma$ =
-50](checkpt3_3.1.png){#fig:plane width="6cm"}
-
-![PSNR = 3.49, SSIM = 0.39 when $\sigma$ =
-50](checkpt3_4.1.png){#fig:plane width="6cm"}
-
-When comparing to the paper's results, the PSNR and SSIM values are
-smaller. The original paper used images of size 180 x 180, which is much
-larger than our 32 x 32 images. This would contribute to our values
-being so much smaller.
-
-# Areas for Improvement
-
-Not every image came out with optimal values. In some instances, the
-PSNR or SSIM came out as negative values. Example images can be seen in
-Figures 3 and 4.
-
-![PSNR = 2.49, SSIM = -0.07 when $\sigma$ =
-50](checkpt3_badPSNR1.png){#fig:carrrr width="6cm"}
-
-![PSNR = 2.49, SSIM = -0.07 when $\sigma$ =
-50](checkpt3_badSSIM1.png){#fig:carrrr width="6cm"}
-
-Our noise also seems to be extreme in our bright whites and deep blacks.
-So, our noise function may need to be adjusted. The denoised images also
-appear to have a haze over them that we could try to remedy in our
-application to a real world problem.
-
 # Bibliography
 
 Kai Zhang, Wangmeng Zuo, Yunjin Chen, Deyu Meng, and Lei Zhang. Beyond a
