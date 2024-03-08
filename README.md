@@ -115,10 +115,10 @@ SSIM (Structural Similarity Index Measure) are metrics to help define
 the similarity between clean and unclean images. Higher is better.
 
 ![PSNR = 3.49, SSIM = 0.39 when $\sigma$ =
-50](checkpt3_3.1.png){#fig:plane width="6cm"}
+50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_3.1.png?raw=true)
 
 ![PSNR = 3.49, SSIM = 0.39 when $\sigma$ =
-50](checkpt3_4.1.png){#fig:plane width="6cm"}
+50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_4.1.png?raw=true)
 
 When comparing to the paper's results, the PSNR and SSIM values are
 smaller. The original paper used images of size 180 x 180, which is much
@@ -132,10 +132,10 @@ PSNR or SSIM came out as negative values. Example images can be seen in
 Figures 3 and 4.
 
 ![PSNR = 2.49, SSIM = -0.07 when $\sigma$ =
-50](checkpt3_badPSNR1.png){#fig:carrrr width="6cm"}
+50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_badPSNR1.png?raw=true)
 
 ![PSNR = 2.49, SSIM = -0.07 when $\sigma$ =
-50](checkpt3_badSSIM1.png){#fig:carrrr width="6cm"}
+50](https://github.com/negiutsav9/R2R-ECE50024/blob/main/checkpt3_badSSIM1.png?raw=true)
 
 Our noise also seems to be extreme in our bright whites and deep blacks.
 So, our noise function may need to be adjusted. The denoised images also
