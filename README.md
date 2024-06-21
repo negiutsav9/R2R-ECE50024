@@ -1,4 +1,4 @@
-# Recorrupted-to-Recorrupted (R2R) deep-learning for image denoising
+# Recorrupted-to-Recorrupted (R2R) unsupervised learning for image denoising
 
 # Introduction
 
